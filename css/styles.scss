@@ -254,7 +254,41 @@ img {
             text-align: center;
         }
     }
+
+    #tab-3-content {
+//      .text-center {
+//        display: flex;
+//        align-items: center;
+//         .btn {
+//             margin-left: 1.2rem;
+//             i {
+//                 margin-left: 0.5rem;
+//             }
+//         }
+//    }
+.table {
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: collapse;
+    border-spacing: 0;
+    thead th {
+        text-transform: uppercase;
+        padding: 0.8rem;
+    }
+    tbody tr:nth-child(odd) {
+        background: #222;
+    }
+    tbody tr td {
+        color: #999;
+        padding: 0.8rem 1.2rem;
+        text-align: center;
+        &:first-child {
+            text-align: left;
+
+        }
+       
+    }
+
 }
-
-
-
+}
+}

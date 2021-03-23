@@ -276,4 +276,30 @@ img {
   grid-gap: 2rem;
   text-align: center;
 }
+
+.tab-content #tab-3-content .table {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.tab-content #tab-3-content .table thead th {
+  text-transform: uppercase;
+  padding: 0.8rem;
+}
+
+.tab-content #tab-3-content .table tbody tr:nth-child(odd) {
+  background: #222;
+}
+
+.tab-content #tab-3-content .table tbody tr td {
+  color: #999;
+  padding: 0.8rem 1.2rem;
+  text-align: center;
+}
+
+.tab-content #tab-3-content .table tbody tr td:first-child {
+  text-align: left;
+}
 /*# sourceMappingURL=styles.css.map */
