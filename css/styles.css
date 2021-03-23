@@ -302,4 +302,33 @@ img {
 .tab-content #tab-3-content .table tbody tr td:first-child {
   text-align: left;
 }
+
+.footer {
+  max-width: 75%;
+  margin: 1rem auto;
+  overflow: auto;
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.footer p {
+  margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+
+.footer .footer-cols li {
+  line-height: 1.9;
+}
+
+.footer .footer-cols a {
+  color: #999;
+  font-size: 0.9rem;
+}
 /*# sourceMappingURL=styles.css.map */
